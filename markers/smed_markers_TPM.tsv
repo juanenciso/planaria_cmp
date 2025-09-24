@@ -1,0 +1,123 @@
+transcript_id	TPM	marker_guess	stitle
+dd_Smed_v6_594_0_1	24317.173	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_594_0_1	24317.173	Vasa/DDX4	sp|Q5W5U4|DDX4_BOVIN Probable ATP-dependent RNA helicase DDX4 OS=Bos taurus OX=9913 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_596_0_1	23226.505	PL10/DDX3	sp|Q62095|DDX3Y_MOUSE ATP-dependent RNA helicase DDX3Y OS=Mus musculus OX=10090 GN=Ddx3y PE=1 SV=2
+dd_Smed_v6_596_0_1	23226.505	Vasa/DDX4	sp|Q5W5U4|DDX4_BOVIN Probable ATP-dependent RNA helicase DDX4 OS=Bos taurus OX=9913 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_756_0_1	19135.948	Argonaute/Ago	sp|Q7PLK0|AGO3_DROME Protein argonaute-3 OS=Drosophila melanogaster OX=7227 GN=AGO3 PE=1 SV=3
+dd_Smed_v6_756_0_1	19135.948	Piwi	sp|A9ZSZ2|AGO3_BOMMO Piwi-like protein Ago3 OS=Bombyx mori OX=7091 GN=AGO3 PE=1 SV=2
+dd_Smed_v6_349_0_1	16048.983	PL10/DDX3	sp|Q62167|DDX3X_MOUSE ATP-dependent RNA helicase DDX3X OS=Mus musculus OX=10090 GN=Ddx3x PE=1 SV=3
+dd_Smed_v6_349_0_1	16048.983	Vasa/DDX4	sp|Q61496|DDX4_MOUSE ATP-dependent RNA helicase DDX4 OS=Mus musculus OX=10090 GN=Ddx4 PE=1 SV=2
+dd_Smed_v6_659_0_1	14806.434	Argonaute/Ago	sp|Q7PLK0|AGO3_DROME Protein argonaute-3 OS=Drosophila melanogaster OX=7227 GN=AGO3 PE=1 SV=3
+dd_Smed_v6_659_0_1	14806.434	Piwi	sp|Q8UVX0|PIWL1_DANRE Piwi-like protein 1 OS=Danio rerio OX=7955 GN=piwil1 PE=1 SV=1
+dd_Smed_v6_1258_0_1	14151.070	Argonaute/Ago	sp|Q7PLK0|AGO3_DROME Protein argonaute-3 OS=Drosophila melanogaster OX=7227 GN=AGO3 PE=1 SV=3
+dd_Smed_v6_1258_0_1	14151.070	Piwi	sp|A9ZSZ2|AGO3_BOMMO Piwi-like protein Ago3 OS=Bombyx mori OX=7091 GN=AGO3 PE=1 SV=2
+dd_Smed_v6_283_0_1	11802.772	PL10/DDX3	sp|P16381|DDX3L_MOUSE Putative ATP-dependent RNA helicase Pl10 OS=Mus musculus OX=10090 GN=D1Pas1 PE=1 SV=1
+dd_Smed_v6_283_0_1	11802.772	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_799_0_1	8850.117	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_799_0_1	8850.117	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_794_0_1	8502.457	PL10/DDX3	sp|O15523|DDX3Y_HUMAN ATP-dependent RNA helicase DDX3Y OS=Homo sapiens OX=9606 GN=DDX3Y PE=1 SV=2
+dd_Smed_v6_794_0_1	8502.457	Vasa/DDX4	sp|Q91372|DDX4_XENLA Probable ATP-dependent RNA helicase DDX4 OS=Xenopus laevis OX=8355 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_724_0_1	7909.328	PL10/DDX3	sp|Q62095|DDX3Y_MOUSE ATP-dependent RNA helicase DDX3Y OS=Mus musculus OX=10090 GN=Ddx3y PE=1 SV=2
+dd_Smed_v6_724_0_1	7909.328	Vasa/DDX4	sp|Q6GWX0|DDX4_PIG Probable ATP-dependent RNA helicase DDX4 OS=Sus scrofa OX=9823 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_1034_0_1	7399.022	PL10/DDX3	sp|Q5RF43|DDX3Y_PONAB ATP-dependent RNA helicase DDX3Y OS=Pongo abelii OX=9601 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_1034_0_1	7399.022	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_2411_0_1	5003.672	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_2411_0_1	5003.672	Vasa/DDX4	sp|Q61496|DDX4_MOUSE ATP-dependent RNA helicase DDX4 OS=Mus musculus OX=10090 GN=Ddx4 PE=1 SV=2
+dd_Smed_v6_737_0_1	4829.545	PL10/DDX3	sp|Q62095|DDX3Y_MOUSE ATP-dependent RNA helicase DDX3Y OS=Mus musculus OX=10090 GN=Ddx3y PE=1 SV=2
+dd_Smed_v6_737_0_1	4829.545	Vasa/DDX4	sp|Q91372|DDX4_XENLA Probable ATP-dependent RNA helicase DDX4 OS=Xenopus laevis OX=8355 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_3742_0_1	4524.193	Vasa/DDX4	sp|Q61496|DDX4_MOUSE ATP-dependent RNA helicase DDX4 OS=Mus musculus OX=10090 GN=Ddx4 PE=1 SV=2
+dd_Smed_v6_1985_0_1	4078.616	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_1985_0_1	4078.616	Vasa/DDX4	sp|Q5W5U4|DDX4_BOVIN Probable ATP-dependent RNA helicase DDX4 OS=Bos taurus OX=9913 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_7594_0_1	3932.123	Argonaute/Ago	sp|Q6DCX2|AGO2_XENLA Protein argonaute-2 OS=Xenopus laevis OX=8355 GN=ago2 PE=2 SV=1
+dd_Smed_v6_1194_0_3	3713.029	Argonaute/Ago	sp|O77503|AGO2_RABIT Protein argonaute-2 (Fragment) OS=Oryctolagus cuniculus OX=9986 GN=AGO2 PE=1 SV=2
+dd_Smed_v6_3861_0_1	3568.683	Argonaute/Ago	sp|Q9UKV8|AGO2_HUMAN Protein argonaute-2 OS=Homo sapiens OX=9606 GN=AGO2 PE=1 SV=3
+dd_Smed_v6_3817_0_1	3259.587	PL10/DDX3	sp|P16381|DDX3L_MOUSE Putative ATP-dependent RNA helicase Pl10 OS=Mus musculus OX=10090 GN=D1Pas1 PE=1 SV=1
+dd_Smed_v6_3817_0_1	3259.587	Vasa/DDX4	sp|Q9NQI0|DDX4_HUMAN Probable ATP-dependent RNA helicase DDX4 OS=Homo sapiens OX=9606 GN=DDX4 PE=1 SV=2
+dd_Smed_v6_2082_0_1	2922.254	PL10/DDX3	sp|Q62095|DDX3Y_MOUSE ATP-dependent RNA helicase DDX3Y OS=Mus musculus OX=10090 GN=Ddx3y PE=1 SV=2
+dd_Smed_v6_2082_0_1	2922.254	Vasa/DDX4	sp|Q4R5S7|DDX4_MACFA Probable ATP-dependent RNA helicase DDX4 OS=Macaca fascicularis OX=9541 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_3742_0_2	2885.930	Vasa/DDX4	sp|Q61496|DDX4_MOUSE ATP-dependent RNA helicase DDX4 OS=Mus musculus OX=10090 GN=Ddx4 PE=1 SV=2
+dd_Smed_v6_3250_0_1	2885.770	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_1985_0_2	2284.115	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_1985_0_2	2284.115	Vasa/DDX4	sp|Q4R5S7|DDX4_MACFA Probable ATP-dependent RNA helicase DDX4 OS=Macaca fascicularis OX=9541 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_2233_0_1	2203.321	PL10/DDX3	sp|Q6GVM6|DDX3Y_PANTR ATP-dependent RNA helicase DDX3Y OS=Pan troglodytes OX=9598 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_2233_0_1	2203.321	Vasa/DDX4	sp|Q91372|DDX4_XENLA Probable ATP-dependent RNA helicase DDX4 OS=Xenopus laevis OX=8355 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_3743_0_1	2094.922	PL10/DDX3	sp|Q5RF43|DDX3Y_PONAB ATP-dependent RNA helicase DDX3Y OS=Pongo abelii OX=9601 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_3743_0_1	2094.922	Vasa/DDX4	sp|Q91372|DDX4_XENLA Probable ATP-dependent RNA helicase DDX4 OS=Xenopus laevis OX=8355 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_3181_0_1	1974.387	PL10/DDX3	sp|O15523|DDX3Y_HUMAN ATP-dependent RNA helicase DDX3Y OS=Homo sapiens OX=9606 GN=DDX3Y PE=1 SV=2
+dd_Smed_v6_3181_0_1	1974.387	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_3816_0_1	1929.337	PL10/DDX3	sp|Q62167|DDX3X_MOUSE ATP-dependent RNA helicase DDX3X OS=Mus musculus OX=10090 GN=Ddx3x PE=1 SV=3
+dd_Smed_v6_3816_0_1	1929.337	Vasa/DDX4	sp|Q6GWX0|DDX4_PIG Probable ATP-dependent RNA helicase DDX4 OS=Sus scrofa OX=9823 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_4165_0_1	1493.662	PL10/DDX3	sp|O15523|DDX3Y_HUMAN ATP-dependent RNA helicase DDX3Y OS=Homo sapiens OX=9606 GN=DDX3Y PE=1 SV=2
+dd_Smed_v6_4165_0_1	1493.662	Vasa/DDX4	sp|Q9NQI0|DDX4_HUMAN Probable ATP-dependent RNA helicase DDX4 OS=Homo sapiens OX=9606 GN=DDX4 PE=1 SV=2
+dd_Smed_v6_5205_0_1	1468.403	PL10/DDX3	sp|Q6GVM6|DDX3Y_PANTR ATP-dependent RNA helicase DDX3Y OS=Pan troglodytes OX=9598 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_5205_0_1	1468.403	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_3743_0_2	1359.951	PL10/DDX3	sp|Q5RF43|DDX3Y_PONAB ATP-dependent RNA helicase DDX3Y OS=Pongo abelii OX=9601 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_3743_0_2	1359.951	Vasa/DDX4	sp|Q61496|DDX4_MOUSE ATP-dependent RNA helicase DDX4 OS=Mus musculus OX=10090 GN=Ddx4 PE=1 SV=2
+dd_Smed_v6_5080_0_1	1310.066	PL10/DDX3	sp|Q62095|DDX3Y_MOUSE ATP-dependent RNA helicase DDX3Y OS=Mus musculus OX=10090 GN=Ddx3y PE=1 SV=2
+dd_Smed_v6_5080_0_1	1310.066	Vasa/DDX4	sp|Q91372|DDX4_XENLA Probable ATP-dependent RNA helicase DDX4 OS=Xenopus laevis OX=8355 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_6961_0_1	1193.225	Vasa/DDX4	sp|Q64060|DDX4_RAT Probable ATP-dependent RNA helicase DDX4 OS=Rattus norvegicus OX=10116 GN=Ddx4 PE=1 SV=1
+dd_Smed_v6_7001_0_1	1140.647	PL10/DDX3	sp|O15523|DDX3Y_HUMAN ATP-dependent RNA helicase DDX3Y OS=Homo sapiens OX=9606 GN=DDX3Y PE=1 SV=2
+dd_Smed_v6_7001_0_1	1140.647	Vasa/DDX4	sp|Q9NQI0|DDX4_HUMAN Probable ATP-dependent RNA helicase DDX4 OS=Homo sapiens OX=9606 GN=DDX4 PE=1 SV=2
+dd_Smed_v6_10179_0_1	1092.054	PL10/DDX3	sp|Q62167|DDX3X_MOUSE ATP-dependent RNA helicase DDX3X OS=Mus musculus OX=10090 GN=Ddx3x PE=1 SV=3
+dd_Smed_v6_10179_0_1	1092.054	Vasa/DDX4	sp|Q64060|DDX4_RAT Probable ATP-dependent RNA helicase DDX4 OS=Rattus norvegicus OX=10116 GN=Ddx4 PE=1 SV=1
+dd_Smed_v6_6143_0_1	1043.277	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_6143_0_1	1043.277	Vasa/DDX4	sp|Q61496|DDX4_MOUSE ATP-dependent RNA helicase DDX4 OS=Mus musculus OX=10090 GN=Ddx4 PE=1 SV=2
+dd_Smed_v6_8664_0_1	836.842	PL10/DDX3	sp|P16381|DDX3L_MOUSE Putative ATP-dependent RNA helicase Pl10 OS=Mus musculus OX=10090 GN=D1Pas1 PE=1 SV=1
+dd_Smed_v6_8664_0_1	836.842	Vasa/DDX4	sp|Q91372|DDX4_XENLA Probable ATP-dependent RNA helicase DDX4 OS=Xenopus laevis OX=8355 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_7181_0_1	812.752	PL10/DDX3	sp|Q6GVM6|DDX3Y_PANTR ATP-dependent RNA helicase DDX3Y OS=Pan troglodytes OX=9598 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_7181_0_1	812.752	Vasa/DDX4	sp|Q91372|DDX4_XENLA Probable ATP-dependent RNA helicase DDX4 OS=Xenopus laevis OX=8355 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_7310_0_1	801.320	PL10/DDX3	sp|Q62167|DDX3X_MOUSE ATP-dependent RNA helicase DDX3X OS=Mus musculus OX=10090 GN=Ddx3x PE=1 SV=3
+dd_Smed_v6_7310_0_1	801.320	Vasa/DDX4	sp|Q9NQI0|DDX4_HUMAN Probable ATP-dependent RNA helicase DDX4 OS=Homo sapiens OX=9606 GN=DDX4 PE=1 SV=2
+dd_Smed_v6_6709_0_2	773.850	PL10/DDX3	sp|Q62095|DDX3Y_MOUSE ATP-dependent RNA helicase DDX3Y OS=Mus musculus OX=10090 GN=Ddx3y PE=1 SV=2
+dd_Smed_v6_6709_0_2	773.850	Vasa/DDX4	sp|Q9NQI0|DDX4_HUMAN Probable ATP-dependent RNA helicase DDX4 OS=Homo sapiens OX=9606 GN=DDX4 PE=1 SV=2
+dd_Smed_v6_1194_0_2	665.743	Argonaute/Ago	sp|O77503|AGO2_RABIT Protein argonaute-2 (Fragment) OS=Oryctolagus cuniculus OX=9986 GN=AGO2 PE=1 SV=2
+dd_Smed_v6_6096_0_1	594.992	PL10/DDX3	sp|Q5RF43|DDX3Y_PONAB ATP-dependent RNA helicase DDX3Y OS=Pongo abelii OX=9601 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_6096_0_1	594.992	Vasa/DDX4	sp|Q4R5S7|DDX4_MACFA Probable ATP-dependent RNA helicase DDX4 OS=Macaca fascicularis OX=9541 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_10133_0_1	511.727	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_7797_0_1	482.923	PL10/DDX3	sp|P16381|DDX3L_MOUSE Putative ATP-dependent RNA helicase Pl10 OS=Mus musculus OX=10090 GN=D1Pas1 PE=1 SV=1
+dd_Smed_v6_7797_0_1	482.923	Vasa/DDX4	sp|Q61496|DDX4_MOUSE ATP-dependent RNA helicase DDX4 OS=Mus musculus OX=10090 GN=Ddx4 PE=1 SV=2
+dd_Smed_v6_9142_0_1	453.788	PL10/DDX3	sp|Q62095|DDX3Y_MOUSE ATP-dependent RNA helicase DDX3Y OS=Mus musculus OX=10090 GN=Ddx3y PE=1 SV=2
+dd_Smed_v6_9142_0_1	453.788	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_6948_0_1	405.455	PL10/DDX3	sp|Q62095|DDX3Y_MOUSE ATP-dependent RNA helicase DDX3Y OS=Mus musculus OX=10090 GN=Ddx3y PE=1 SV=2
+dd_Smed_v6_6948_0_1	405.455	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_5413_0_1	403.271	PL10/DDX3	sp|Q62167|DDX3X_MOUSE ATP-dependent RNA helicase DDX3X OS=Mus musculus OX=10090 GN=Ddx3x PE=1 SV=3
+dd_Smed_v6_5413_0_1	403.271	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_10378_0_1	402.477	PL10/DDX3	sp|Q6GVM6|DDX3Y_PANTR ATP-dependent RNA helicase DDX3Y OS=Pan troglodytes OX=9598 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_10378_0_1	402.477	Vasa/DDX4	sp|Q91372|DDX4_XENLA Probable ATP-dependent RNA helicase DDX4 OS=Xenopus laevis OX=8355 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_7418_0_1	379.591	PL10/DDX3	sp|Q5RF43|DDX3Y_PONAB ATP-dependent RNA helicase DDX3Y OS=Pongo abelii OX=9601 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_7418_0_1	379.591	Vasa/DDX4	sp|Q91372|DDX4_XENLA Probable ATP-dependent RNA helicase DDX4 OS=Xenopus laevis OX=8355 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_4100_0_1	360.514	PL10/DDX3	sp|O15523|DDX3Y_HUMAN ATP-dependent RNA helicase DDX3Y OS=Homo sapiens OX=9606 GN=DDX3Y PE=1 SV=2
+dd_Smed_v6_4100_0_1	360.514	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_6709_0_1	347.107	PL10/DDX3	sp|Q62167|DDX3X_MOUSE ATP-dependent RNA helicase DDX3X OS=Mus musculus OX=10090 GN=Ddx3x PE=1 SV=3
+dd_Smed_v6_6709_0_1	347.107	Vasa/DDX4	sp|Q5W5U4|DDX4_BOVIN Probable ATP-dependent RNA helicase DDX4 OS=Bos taurus OX=9913 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_7870_0_1	317.529	PL10/DDX3	sp|Q62167|DDX3X_MOUSE ATP-dependent RNA helicase DDX3X OS=Mus musculus OX=10090 GN=Ddx3x PE=1 SV=3
+dd_Smed_v6_7870_0_1	317.529	Vasa/DDX4	sp|Q64060|DDX4_RAT Probable ATP-dependent RNA helicase DDX4 OS=Rattus norvegicus OX=10116 GN=Ddx4 PE=1 SV=1
+dd_Smed_v6_14392_0_2	199.385	PL10/DDX3	sp|Q5RF43|DDX3Y_PONAB ATP-dependent RNA helicase DDX3Y OS=Pongo abelii OX=9601 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_14392_0_2	199.385	Vasa/DDX4	sp|Q9NQI0|DDX4_HUMAN Probable ATP-dependent RNA helicase DDX4 OS=Homo sapiens OX=9606 GN=DDX4 PE=1 SV=2
+dd_Smed_v6_8047_0_2	187.605	PL10/DDX3	sp|P16381|DDX3L_MOUSE Putative ATP-dependent RNA helicase Pl10 OS=Mus musculus OX=10090 GN=D1Pas1 PE=1 SV=1
+dd_Smed_v6_8047_0_2	187.605	Vasa/DDX4	sp|Q6GWX0|DDX4_PIG Probable ATP-dependent RNA helicase DDX4 OS=Sus scrofa OX=9823 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_13831_0_1	175.096	PL10/DDX3	sp|Q5RF43|DDX3Y_PONAB ATP-dependent RNA helicase DDX3Y OS=Pongo abelii OX=9601 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_13831_0_1	175.096	Vasa/DDX4	sp|Q9NQI0|DDX4_HUMAN Probable ATP-dependent RNA helicase DDX4 OS=Homo sapiens OX=9606 GN=DDX4 PE=1 SV=2
+dd_Smed_v6_3817_0_2	148.939	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_3817_0_2	148.939	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_12279_0_1	135.516	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_12279_0_1	135.516	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_10484_0_1	96.000	Nanos	sp|Q8WY41|NANO1_HUMAN Nanos homolog 1 OS=Homo sapiens OX=9606 GN=NANOS1 PE=1 SV=2
+dd_Smed_v6_3384_0_1	93.023	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_3384_0_1	93.023	Vasa/DDX4	sp|Q61496|DDX4_MOUSE ATP-dependent RNA helicase DDX4 OS=Mus musculus OX=10090 GN=Ddx4 PE=1 SV=2
+dd_Smed_v6_11802_0_1	90.000	PL10/DDX3	sp|Q5RF43|DDX3Y_PONAB ATP-dependent RNA helicase DDX3Y OS=Pongo abelii OX=9601 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_11090_0_1	75.975	PL10/DDX3	sp|Q62167|DDX3X_MOUSE ATP-dependent RNA helicase DDX3X OS=Mus musculus OX=10090 GN=Ddx3x PE=1 SV=3
+dd_Smed_v6_11090_0_1	75.975	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_12279_0_2	63.011	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_12279_0_2	63.011	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_1194_0_1	58.532	Argonaute/Ago	sp|O77503|AGO2_RABIT Protein argonaute-2 (Fragment) OS=Oryctolagus cuniculus OX=9986 GN=AGO2 PE=1 SV=2
+dd_Smed_v6_8047_0_1	52.397	PL10/DDX3	sp|P16381|DDX3L_MOUSE Putative ATP-dependent RNA helicase Pl10 OS=Mus musculus OX=10090 GN=D1Pas1 PE=1 SV=1
+dd_Smed_v6_8047_0_1	52.397	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1
+dd_Smed_v6_14392_0_1	27.758	PL10/DDX3	sp|Q62095|DDX3Y_MOUSE ATP-dependent RNA helicase DDX3Y OS=Mus musculus OX=10090 GN=Ddx3y PE=1 SV=2
+dd_Smed_v6_14392_0_1	27.758	Vasa/DDX4	sp|Q9NQI0|DDX4_HUMAN Probable ATP-dependent RNA helicase DDX4 OS=Homo sapiens OX=9606 GN=DDX4 PE=1 SV=2
+dd_Smed_v6_34434_0_1	21.000	Vasa/DDX4	sp|Q5W5U4|DDX4_BOVIN Probable ATP-dependent RNA helicase DDX4 OS=Bos taurus OX=9913 GN=DDX4 PE=2 SV=1
+dd_Smed_v6_33697_0_1	17.000	PL10/DDX3	sp|Q62167|DDX3X_MOUSE ATP-dependent RNA helicase DDX3X OS=Mus musculus OX=10090 GN=Ddx3x PE=1 SV=3
+dd_Smed_v6_33697_0_1	17.000	Vasa/DDX4	sp|Q61496|DDX4_MOUSE ATP-dependent RNA helicase DDX4 OS=Mus musculus OX=10090 GN=Ddx4 PE=1 SV=2
+dd_Smed_v6_35095_0_1	15.000	PL10/DDX3	sp|O00571|DDX3X_HUMAN ATP-dependent RNA helicase DDX3X OS=Homo sapiens OX=9606 GN=DDX3X PE=1 SV=3
+dd_Smed_v6_33359_0_1	13.000	PL10/DDX3	sp|Q5RF43|DDX3Y_PONAB ATP-dependent RNA helicase DDX3Y OS=Pongo abelii OX=9601 GN=DDX3Y PE=2 SV=1
+dd_Smed_v6_33359_0_1	13.000	Vasa/DDX4	sp|Q3MSQ8|DDX4_PELLE Probable ATP-dependent RNA helicase DDX4 OS=Pelophylax lessonae OX=45623 GN=ddx4 PE=2 SV=1

@@ -1,0 +1,14 @@
+name: planaria_cmp
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.13
+  - r-base=4.5
+  - r-tidyverse
+  - r-ggplot2
+  - r-scales
+  - r-forcats
+  - r-patchwork
+  - seqkit
+  - diamond

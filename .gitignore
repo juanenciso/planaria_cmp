@@ -1,0 +1,22 @@
+# R history files
+.Rhistory
+.RData
+.Rproj.user/
+
+# RStudio project files
+*.Rproj
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Figures and outputs
+figures/
+*.pdf
+*.png
+
+# Conda / micromamba environments
+*.lock
+__pycache__/
+.env/
