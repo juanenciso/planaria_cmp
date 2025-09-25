@@ -1,22 +1,46 @@
-# R history files
+# SO / R
+.DS_Store
+.Rapp.history
 .Rhistory
-.RData
 .Rproj.user/
 
-# RStudio project files
-*.Rproj
-
-# Logs and temporary files
+# Datos y resultados pesados
+reads/
+raw/
+refs/
+db/
+hits/
+index/
+idx/
+logs/
+quants/
+quant/
+sra_cache/
+tmp/
+SRR*/
 *.log
-*.tmp
+
+# Ficheros bioinformáticos grandes
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.gff*
+*.gtf
+*.bed
+*.pep
+*.cds
+*.faa
+*.fna
+*.tsv.gz
+
+# Cosas temporales
 *.swp
-
-# Figures and outputs
-figures/
-*.pdf
-*.png
-
-# Conda / micromamba environments
-*.lock
-__pycache__/
-.env/
+*.tmp
