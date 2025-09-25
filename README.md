@@ -1,48 +1,79 @@
 # planaria_cmp — Marker families across planarian species
 
-Pipeline to identify and compare germline/gene-silencing marker families
-(**Vasa/DDX4, PL10/DDX3, Piwi, Argonaute/Ago, Nanos**) between **Dugesia** and
-**Schmidtea**, and to generate summary tables and publication-ready figures.
+Pipeline to identify and compare germline/gene-silencing marker families (**Vasa/DDX4, PL10/DDX3, Piwi, Argonaute/Ago, Nanos**) between *Dugesia* and *Schmidtea*, and to generate summary tables and publication-ready figures.
+
+---
+
+## 📑 Table of Contents
+
+- 1) Environment
+- 2) Input expectations
+- 3) Run the pipeline (minimal)
+- 4) Make the figures (R)
+- 5) Re-use / extend
+- 6) Citing
+- 7) License
+
+
+---
+
 
 ## Repo layout
 
+```text
 planaria_cmp/
-├─ scripts/ # Bash/R helpers (optional)
-├─ refs/
-│ ├─ dug/transcripts.fa.gz
-│ └─ smed/transcripts.fa.gz
-├─ quants/
-│ ├─ dug/<ACC>/quant.sf
-│ └─ smed/<ACC>/quant.sf
-├─ db/ # UniProt marker FASTA + DIAMOND DB
-├─ hits/ # DIAMOND tabular results
-├─ markers/ # Collapsed tables + per-family FASTA + comparisons
-├─ figures/ # PNG/PDF figures
-├─ environment.yml
-└─ README.md
+├── scripts/                # Bash/R helpers (optional)
+├── refs/                   # Transcriptomes (FASTA)
+│   ├── dug/transcripts.fa.gz
+│   └── smed/transcripts.fa.gz
+├── quants/                 # Salmon/Kallisto quantification
+│   ├── dug/quant.sf
+│   └── smed/quant.sf
+├── db/                     # UniProt marker FASTA + DIAMOND DB
+├── hits/                   # DIAMOND tabular results
+├── markers/                # Collapsed tables + per-family FASTA + comparisons
+├── figures/                # PNG/PDF figures
+├── environment.yml         # Conda/micromamba environment
+└── README.md
+```
 
-> **Note:** Only commit compact, derived files (TSV, PNG/PDF). Raw reads, large
-FASTA/indices, and caches should be `.gitignore`-d.
+
+
+> **Note:** files (TSV, PNG/PDF). Raw reads, large
+FASTA/indices, and caches `.gitignore`-d.
+
+---
 
 ## 1) Environment
-
 ```bash
+
 micromamba env create -f environment.yml
 micromamba activate planaria-cmp
-
+```
 This installs: diamond, seqkit, and R (with ggplot2, dplyr, readr, tidyr, scales, forcats, patchwork).
-2) Input expectations
+
+## 2) Input expectations**
+
+```bash
+
 	•	Transcripts (per species):
 	◦	refs/dug/transcripts.fa.gz
 	◦	refs/smed/transcripts.fa.gz
 	•	Salmon/Kallisto quantification:
 	◦	quants/dug/<ACC>/quant.sf
 	◦	quants/smed/<ACC>/quant.sf
+```
 Pick one representative accession per species (used to fetch TPM per transcript).
-3) Build the UniProt marker database
-mkdir -p db
 
-# Collect reviewed UniProt entries for each family keyword
+## 3) Build the UniProt marker database
+   
+```bash  
+mkdir -p db
+```
+
+# Collect reviewed UniProt entries for each family keyword #
+
+```bash  
 : > db/markers.fa
 for q in \
   'gene_exact:DDX4' \
@@ -60,9 +91,11 @@ grep -c '^>' db/markers.fa
 
 # Build DIAMOND DB
 diamond makedb --in db/markers.fa -d db/markers.dmnd
+```
 
-4) DIAMOND searches
+# 4) DIAMOND searches
 
+```bash 
 mkdir -p hits
 
 # Dugesia
@@ -80,8 +113,10 @@ diamond blastx \
   --max-target-seqs 50 -e 1e-5 -k 50 \
   --outfmt 6 qseqid sseqid pident length evalue bitscore stitle \
   > hits/smed_vs_markers.tsv
+```
 
-5) Collapse to best hit per family and add TPM
+# 5) Collapse to best hit per family and add TPM 
+```bash 
 Replace <ACC_SM> and <ACC_DU> with your accessions.
 accSM=<ACC_SM>   # e.g., SRR32973373
 accDU=<ACC_DU>   # e.g., SRR27692727
@@ -139,9 +174,10 @@ BEGIN{ while((getline<qsf)>0){ if(NR==1)continue; tpm[$1]=$5 }
 { id=$1; st=$7; fam=$8; print id, ((id in tpm)?tpm[id]:0), fam, st }' \
   hits/dug_best_by_family.tsv | (read h; echo "$h"; sort -k2,2nr) \
   > markers/dug_markers_TPM.tsv
+```
 
-6) Per-family FASTA (optional)
-
+# 6) Per-family FASTA (optional)
+```bash 
 # IDs
 awk -F'\t' 'NR>1{print > ("markers/" tolower($3) ".ids")}' markers/smed_markers_TPM.tsv
 awk -F'\t' 'NR>1{print > ("markers/dug_" tolower($3) ".ids")}' markers/dug_markers_TPM.tsv
@@ -173,8 +209,10 @@ END{
 }' OFS='\t' markers/family_TPM_long.tsv markers/family_TPM_long.tsv \
 | awk 'NR==1||$1=="Vasa/DDX4"||$1=="PL10/DDX3"||$1=="Piwi"||$1=="Argonaute/Ago"||$1=="Nanos"' \
 > markers/compare_family_TPM.tsv
+```
 
-8) Plots
+## 8) Plots
+```bash 
 Open R and run:
 
 # scripts/plot_markers.R equivalent (inline)
@@ -242,14 +280,25 @@ combo <- (p_abs_en / p_pct_en / p_fc_en) +
   )
 ggsave("figures/markers_family_composite_en.png", combo, width=10, height=12, dpi=300)
 ggsave("figures/markers_family_composite_en.pdf", combo, width=10, height=12)
+```
 
-9) Troubleshooting
+## 9) Troubleshooting
+```bash 
 
 	•	diamond: command not found → activate the environment.
 	•	Error opening file db/markers.dmnd → run diamond makedb in step 3.
 	•	[WARN] 0 patterns loaded from file (seqkit) → empty .ids file; check family names in TSV.
 	•	R: label_number_si() defunct → the script already switches to label_number(scale_cut=...).
-License
+```
+
+## License
+
+```text
+If you use this pipeline in a publication, please cite:
+
+Enciso, J.S. planaria_cmp: Marker families across planarian species.
+GitHub repository: juanenciso/planaria_cmp
+```
 
 ---
 
@@ -278,7 +327,7 @@ dependencies:
   - r-forcats
   - r-patchwork
 
-  # optional: tidyverse meta (comment out if not needed)
+  # optional: tidyverse meta 
   # - r-tidyverse
 
 
