@@ -185,9 +185,10 @@ awk -F'\t' 'NR>1{print > ("markers/dug_" tolower($3) ".ids")}' markers/dug_marke
 # FASTA
 seqkit grep -f markers/vasa/ddx4.ids  refs/smed/transcripts.fa.gz > markers/smed_vasa.fa  || true
 # (repeat for other families and Dugesia)
+```
 
-7) Summary tables for plotting
-
+# 7) Summary tables for plotting
+```bash 
 # Long table: TPM sum per family/species
 {
   echo -e "species\tfamily\tTPM_sum\tn"
